@@ -85,7 +85,7 @@ fun Navigation(
 
 @Composable
 fun ErrorScreen(mensaje: String, onVolver: () -> Unit) {
-    // UI para la pantalla de error
+
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
